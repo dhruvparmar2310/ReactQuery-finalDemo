@@ -1,0 +1,61 @@
+.form{
+    margin: 0;
+    padding: 30px;
+}
+
+form{
+    width: 40%;
+    margin: 0 auto;
+    border: 1px solid #3f695bc0;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+form input {
+    background-color: transparent !important;
+    border: 1px solid #3f695bc0 !important;
+}
+
+form input:focus{
+    outline: rgb(255, 255, 255) solid 1px !important;
+}
+
+form label{
+    font-size: 15px;
+    font-style: italic;
+}
+
+.star{
+    color: rgba(252, 0, 0, 0.778);
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+form .form-check-label{
+    font-style: normal;
+}
+
+.warning{
+    font-style: italic;
+    font-size: 13px;
+    display: flex;
+    justify-content: end;
+}
+
+.form input[type='radio'] {
+    margin: 5px;
+}
+
+.form .option{
+    text-align: end;
+}
+
+.form .error{
+    color: rgba(252, 0, 0, 0.778);
+    font-style: italic;
+    display: flex;
+    font-size: 13px;
+    font-weight: 600;
+    justify-content: end;
+}
+

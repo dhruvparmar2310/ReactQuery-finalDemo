@@ -1,0 +1,54 @@
+.user{
+    margin: 0;
+    padding: 30px;
+}
+
+.user .table tr, th, td{
+    border: 1px solid #3f695bc0;
+}
+
+.user .table th{
+    background-color: var(--normal);
+    color: #4e7e6e;
+}
+
+.user table td{
+    text-align: start !important;
+    color: var(--hover);
+}
+
+.user .table tr:hover{
+    background-color: #228463;
+    cursor: pointer;
+}
+
+.loading{
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: 1px;
+    color: var(--hover);
+    padding: 30px;
+}
+
+.card{
+    padding: 15px;
+}
+
+.card h4::selection, p::selection, span::selection{
+    background-color: rgb(0, 151, 114);
+    color: white;
+}
+
+.card .Iemail, .Icollege, .Icompany, .Icity{
+    font-style: italic;
+    color: #818181b4;
+}
+
+.card .email, .college, .company, .city{
+    color: rgb(0, 151, 114);
+    font-weight: 600;
+    letter-spacing: 0.1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
